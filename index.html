@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Valentines Day!</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #ffe6e6;
+            text-align: center;
+            padding: 50px;
+        }
+        .envelope {
+            background: url('https://cdn.pixabay.com/photo/2016/02/13/12/26/valentines-day-1190298_960_720.jpg') no-repeat center;
+            background-size: cover;
+            width: 400px;
+            height: 500px;
+            margin: auto;
+            padding-top: 100px;
+        }
+        .checklist {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px;
+            margin: auto;
+            text-align: left;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #d6336c;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+        input[type="checkbox"] {
+            margin-right: 10px;
+            appearance: none;
+            width: 18px;
+            height: 18px;
+            border: 2px solid #d6336c;
+            border-radius: 3px;
+            position: relative;
+            cursor: pointer;
+        }
+        input[type="checkbox"]:checked {
+            background-color: #d6336c;
+            border: 2px solid #d6336c;
+        }
+        input[type="checkbox"]:checked::after {
+            content: '\2714';
+            font-size: 14px;
+            color: white;
+            position: absolute;
+            top: 1px;
+            left: 3px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Happy Valentines Day!</h1>
+    <div class="envelope">
+        <div class="checklist">
+            <p>You have to go on a scavenger hunt and collect these items (Don't worry, I'll pay for them!)</p>
+            <ul>
+                <li><input type="checkbox"> Flowers (pink or red)</li>
+                <li><input type="checkbox"> Chocolates that start with the letter M or R</li>
+                <li><input type="checkbox"> An "I love you" card!</li>
+                <li><input type="checkbox"> 1 Redbulla</li>
+                <li><input type="checkbox"> Write: "Happy Valentine's Day amor. I am extremely grateful to have you in my life and be able to call you mine. You are beautiful in so many ways, you have such pretty eyes, a cute smile, and a kind heart. I hope the scavenger hunt was nice and relaxing and fun! I love you always. " on the card and repeat it to yourself!</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
